@@ -1,0 +1,18 @@
+:root{
+    -- primary 
+    -- secondary
+}
+/* App font face rule*/
+@font-face {
+    font-family: arial;
+    src: url();
+}
+input, textarea{
+
+}
+h1,h2,h3{
+    color: aqua;
+}
+p,a,li{
+    color: aliceblue;
+}

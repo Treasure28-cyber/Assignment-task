@@ -1,0 +1,14 @@
+.left, 
+.center, 
+.right{
+    border: 2px solid black;
+    /* height: 100px; */
+    /* display: flex; */
+    /* display: inline-block; */
+    /* flex-direction: row; */
+    /* display: grid; */
+    /* grid-template-columns: 200px 200px 200px; */
+}
+.left{
+    
+}
