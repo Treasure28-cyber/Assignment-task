@@ -7,9 +7,78 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="left">left</section>
-    <section class="center">Center</section>
-    <section class="right">right</section>
-    
+    <section class="container">
+        <section class="left">
+            <div class="menu-img">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAkCAYAAAD4i3Y+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAumSURBVHgB7Vp5kBTVHf5ed8+1uzN7sFwLeHBpFF0QRIFdEI2ImFgekcSrjKY0iVihEqzESiUxKUsrniFW/MOUVtQyxKgxJtFwaMKtiBcroOAisBwOx7rLnnN198v3Ztjd2Z3u2WF3dotYflVvuuf16/def/17v+s18BW+wv8DhFw5vBBeW6AvaDFsfDMc55klBCQGBwaLj8XLoh8vppoDS/x4MZEHyBfZ9/mnedAc0dGQxlFckxhyOC6mIeF0n5DrQz/irxcnCkWihSZoYhusxEH4Ak24oKGd5OblgXpAYwmwFLGczTKZ5SyWESzFLMdYDrDUGga2fGtmoPa3i4V56tC0HnTNgiEseHULkaIYZhyIugmCfA8exENBvptTIY1JrBnGll2k2rYFXe7me9wGX1kY08IRXuzsS8iNoUYeS9BXCNEGaX/EPv8NYb+OA+3bxcKktPQZUj3AckriyJJA3e54YNGj5pBVm+IXJWzcyMtTWTxu9xZQhmdPMXYs/ranZfpEPRAKCmHoIspHbmSvRznhzyHM91For0ddSQM+CEfFr2F3jrtqeAGKY9Nhy5tY5vN1juC9mtM0eddeGPIpILEMM6J1HcT2n9R02KiFZj/LgV5D2cgdYsKuGE4QSSmxi8fwgWbFInLOjn32eQ89Hxv3zw1mqDWSez9+rr3vLvDiymoDcybrKPCL7jMFCRHib7DMVdQo74vqpkb5WnEpiuUNpPYnLGNzHkzKFVxMv4QW3C5mHojkl1QFIeOc7AqWJ2B63sas+tZc9a2sHe9D+Egl5WKJaWPBR7usoqUvxvHy6gQiJ/x6UqgYKvDoXX7Mm26gLJRhOiwSUksCH4QpNlIg5kLTfs76U3Gi0ORLMBN3i+rovvyT2gGJLZzsL2CLt1DVdKw3Yqk8fAgGzyeh91g25m/fbesPPBfD39eZiCfQL5SSzPvv8OLmy7woKnC0ybtI7oeUiLGc81T0CbKZfdwqqlpfUZa0ASnL2RtSs5HUdUL6+dfopfVktn2Ub/9nWFOyVspjTa6GYTUtul58NtsukVJcEf7CxpP/iOOVtSYSWcyeQbsfoA612WuMkmzazu0amyWWvpjA8CEarqoyKIwZxI7nyhqPfkGEoIvreEJShXiDDBdmtJG04lIc4bVDXfdpGnQ7ROk7haRNZJsJPJYDcHbJBM7gz2MwzHvw0tDlwNHWzGHYyhMcR0K/zz/faGqVWLYqgb+8kXAltKgAOHecgXPGahhZLmiMJeoO2/hgp42ddTbiDvd9dsDGg5T8M0/RcNZpOrJCoo280KjJKKdHr8MezqMfvcGSc9SB0iZLKXmZpArRzNl+LKpbns0Yc3VJCT24ShI8l/8uI/mTSE2Ry1Bj6XbdjVGRwzxfl3H1PbpKMU5GagvJjbE3bOHlNSYaW5w7K+EoC2Z6cMvlXsycpHUuZ/UyNmy18MiyGDZttxGNdV8UVCnYvkfizytN3He75iSt6sn4OkQdT2gT5Cckt4lCVcL5T6Npu4zPOALZoIlyWYNCgzfOY0dOOlWphQNO94q5x5RfuJbL9h0YRWuoB29hP/P5IoYBTu6HmM5ri9j+AzEXndKadGE2+Mu5Am7jWUlru8S2PRZqat210ZwpBhZf58X5X9PZZVd9cZHAFTOoReiX3/lIDHVhmVQL6YjEJVZsSuCH13gweqgDqULs5+9SFDc/QzHpmufmwhFIGHFO+EbOs8B1cpKeS9Q3SkM/QIKiqGpdSylbRiqf4aS2wU0/S3kV9KJbu9W9DT+EZ26HcTjSKPFqFsNUGhS4+iIDlRO0boSm45KpBi4+T6dLldnAprTuPSSx6h2nKXKpS7GaJ8vSCU0+5/Q2qkBrJdvsQm+wAxX9IrUTuj2KxLAvOv8Cu5HyA3tAeLnmFssNBRWdVUZhMdm5WZ1ZFKv9R2wuXXcpHTNMw+kjdfg87lG1xxCopjT7fc7XowxL3v3ESVlr9XzxW8XM5gbHG3W6XhptTG8wRdBAP6EsunybutnCHBK6nVU0SLiKZQx6GjCBcZzdTTx7KOnktzPk1HChahWl9d5HKTrU4O556bQvu/bbsC33NmrJ1zfYGUu/A/GExMd7nNwEqXT+p3CDYR1DVIu4LpHOSUq936QmYSfDPx91ypWc3J9I0joOfjn/D8loK8Vt8p3g04hoNidwDWuSRjLGJR8mGVYW524fLfyTr8YZHWWZCslsptFqjzizqvo/WM/rtOvd+pGiBaY86tpxu5ag6Ji5hDH5IVWz22BpMRJZzkFvYM3jPJbxOC9jDEE3zCThVmInNOPajmr1kOH67DP+okmy5OJSu0ONoFRAA33X7qErLb/Qo+53aiaFx0YO+bz86FSL2R9xXI8KofTrgqR+TS0p6TDm9fDoF/M4rKNSLUtF2mDAptvRFu0xVm+htCUkcgy380OqrWvopmw05UIpnfpGyoHOwCxO72qk6Vy1bBWxgwKp/NaBGytPyz+Zj+3qS8oAfc8FVGD30XGs5kOomDp94dDq49z0LtRr8Xmzr60gHf1zx2kYWtq3nHoHVGIlWNC/PrIhP6TKZKga6q5v5JlIRYPrkVrmwe43qfCvCypVN7ws+4OOYki66FovZkzqJczsBcolKy892UnVmCoTtPTpK0olXqBVQlgvcJivsyKYrYvCABOYFUL14Pq0KoFSQWJPG5kfrTVQ6Dep8j9+Eiqn0CUpdbg8mspyK6/XsOWQntKZjkI/ouNHGwwTY4pUx4xRS8TBwDhAJViUhXdTmwbfid93kkpqcmPMpy8kodPgZPSUT9BuROmJrqLhmsl/rqTqujh6ximCUp30Iu51anPwiMSOOonZkyWKAu6kPLwsgeeWx9Hq4Ksy1E3c+z3/4atnG6MxQOgzqanNseAVPL2JhqnCcdXq8iCKfHSaExtJcGsyI+aOMDfqFKnq5VzEMqdnA5UvfeHNBKaeoWN2JRMqDlpgXY2Jp/4VY6pPZvg/9E9idPh3XjJVyzaPfsPIeo0GSG70jeus4UYJvB5/MqEb00iovJSlwjVhLeQWNNXHESr/FCIWZsUYl7Gaee0jFLTW8lylU/6IlAoY1bPhh8xg/e6vMS5tHy44S+t04GPMQL3F1N+SP5DQg9LJoTRDhaLu4bv8NTxejwFENlJDlBlGR/55nTUqSWFLLZniElKlwAJwC4Yl02hC+5BhAFNmJHZjEfeCmAJ0BhMVcm3aPjo30pL52V+hB7EmcyErNlnY/Ek7KscyqTtRZzJbouYzK5kX2HdYqpRi5oNq2HrntcYT8y/0/BT5MtAu6KVzxvOQXQ+V1Tb3gCZfZxh6JLltq37e0nY7xiMqSlG7C/GWN9NqVaboGaQSHGoj7tL0W2IMEsL1Kqw1sWJzTp8Z7F38Hc/tD9zhX8rziRhgDJRvor4BeFxc2NCs/iQNGuQ5ji0luPEs1jI3e6jHFfXtwBqWO5Ei+Bj6ht/8+LpA1SOL/A9xnCoMAvK8DCS3fLmXrskXuI9VIjcUUsJEGZf9Jfx/qaOUC7TANl7L0qlKDKvk9u9ZfsCiNtfKkB3qZT4NldihlD62JDCa+/uzMUjoI6lJrWUnNwc1EeUZ84yo4fFJEjqBOwF8GDmaWZ+uW5wJTX3U8HnDu+gdW5AiVakDFeJWspzOoqI5JdWKyN3H221m6co5eKOcIV07SPdQTIpE0jS7wVJqjG2kzP5Jh23ZauOPVllrQy5Q+s9OEsqHEI00VntZtx4++7/cKK0VC7iFtyF0V856V9LNkvbzYiFOJJ+n9O2a4yU3tLVHYBS/xFGyxLdiJ302dx70FqY2Q5u44rJ/haAnDpPUxOU067lJrHpbnkQc8UiMGq6NKeluH2adMITYSzfqeQwwRDUaud96G/qB1IZl8+O5tDXErGhd+koZNEjsoZm8X0zpswE6aTGg/lomJHUoty0EVY6NpxBsfhVfQuSfVMnQVMhNx9OB3aE+XtPFDmY8lqOqbeUgfig8qPgfSIlow8M1LtMAAAAASUVORK5CYII=" alt="">
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="i_dashboard.png" alt="">
+                        <p>Dashboard</p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="https://students.dyen.org/images/i_standup.png" alt="">
+                        <p>Standup</p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="https://students.dyen.org/images/i_payment.png" alt="">
+                        <p>Payment</p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="https://students.dyen.org/images/i_event.png" alt="">
+                        <p>Event</p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="https://students.dyen.org/images/i_referral.png" alt="">
+                        <p>Referrals</p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="https://students.dyen.org/images/i_support.png" alt="">
+                        <p>Support</p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="https://students.dyen.org/images/i_setting.png" alt="">
+                        <p>Setting</p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-cont">
+                <div class="dashboard">
+                    <a href="#">
+                        <img src="https://students.dyen.org/images/i_logout.png" alt="">
+                        <p>Logout</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="center">Center</section>
+        <section class="right">right</section>
+    </section>
 </body>
 </html>
